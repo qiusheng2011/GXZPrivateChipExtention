@@ -11,6 +11,7 @@
 		80F3C4781DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F3C4771DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m */; };
 		80F3C47A1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80F3C4841DDC4FE200A0C0B5 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 80F3C4831DDC4FE200A0C0B5 /* Extension */; };
+		80F3C4861DDC52F600A0C0B5 /* TheGlobalExtension in Resources */ = {isa = PBXBuildFile; fileRef = 80F3C4851DDC52F600A0C0B5 /* TheGlobalExtension */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		80F3C4771DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXZPrivateChipExtentionTests.m; sourceTree = "<group>"; };
 		80F3C4791DDC498F00A0C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80F3C4831DDC4FE200A0C0B5 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
+		80F3C4851DDC52F600A0C0B5 /* TheGlobalExtension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TheGlobalExtension; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		80F3C46B1DDC498F00A0C0B5 /* GXZPrivateChipExtention */ = {
 			isa = PBXGroup;
 			children = (
+				80F3C4851DDC52F600A0C0B5 /* TheGlobalExtension */,
 				80F3C4831DDC4FE200A0C0B5 /* Extension */,
 				80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */,
 				80F3C46D1DDC498F00A0C0B5 /* Info.plist */,
@@ -184,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F3C4841DDC4FE200A0C0B5 /* Extension in Resources */,
+				80F3C4861DDC52F600A0C0B5 /* TheGlobalExtension in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +334,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GXZPrivateChipExtention/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gxzprivate.GXZPrivateChipExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -348,10 +354,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GXZPrivateChipExtention/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gxzprivate.GXZPrivateChipExtention;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -396,6 +404,7 @@
 				80F3C47F1DDC498F00A0C0B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80F3C4801DDC498F00A0C0B5 /* Build configuration list for PBXNativeTarget "GXZPrivateChipExtentionTests" */ = {
 			isa = XCConfigurationList;
@@ -404,6 +413,7 @@
 				80F3C4821DDC498F00A0C0B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
