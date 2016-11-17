@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint GXZPrivateChipExten.podspec' to ensure this is a
+#  Be sure to run `pod spec lint GXZPrivateChipExtention.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "GXZPrivateChipExten"
-  s.version      = "0.0.1"
+  s.name         = "GXZPrivateChipExtention"
+  s.version      = "0.1.0"
   s.summary      = ""
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/qiusheng2011/GXZPrivateChipExtention.git", :commit => "2dc7c953fad2f860b27a12ca77b8a32d6cd75ac7" }
+  s.source       = { :git => "https://github.com/qiusheng2011/GXZPrivateChipExtention.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -19,10 +19,10 @@
 		809A0B781DDDA052009F9B83 /* ASBackTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B541DDDA052009F9B83 /* ASBackTopView.h */; };
 		809A0B791DDDA052009F9B83 /* ASBackTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B551DDDA052009F9B83 /* ASBackTopView.m */; };
 		809A0B7A1DDDA052009F9B83 /* ASBackTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B551DDDA052009F9B83 /* ASBackTopView.m */; };
-		809A0B7B1DDDA052009F9B83 /* GXZPCEmptyVIew.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B561DDDA052009F9B83 /* GXZPCEmptyVIew.h */; };
-		809A0B7C1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */; };
-		809A0B7D1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */; };
-		809A0B7E1DDDA052009F9B83 /* GXZPCEmptyVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809A0B581DDDA052009F9B83 /* GXZPCEmptyVIew.xib */; };
+		809A0B7B1DDDA052009F9B83 /* GXZPCEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B561DDDA052009F9B83 /* GXZPCEmptyView.h */; };
+		809A0B7C1DDDA052009F9B83 /* GXZPCEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* GXZPCEmptyView.m */; };
+		809A0B7D1DDDA052009F9B83 /* GXZPCEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* GXZPCEmptyView.m */; };
+		809A0B7E1DDDA052009F9B83 /* GXZPCEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809A0B581DDDA052009F9B83 /* GXZPCEmptyView.xib */; };
 		809A0B7F1DDDA052009F9B83 /* UIColor+UNTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B5A1DDDA052009F9B83 /* UIColor+UNTAdditions.h */; };
 		809A0B801DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */; };
 		809A0B811DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */; };
@@ -102,9 +102,9 @@
 		809A08771DDD99A5009F9B83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		809A0B541DDDA052009F9B83 /* ASBackTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBackTopView.h; sourceTree = "<group>"; };
 		809A0B551DDDA052009F9B83 /* ASBackTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBackTopView.m; sourceTree = "<group>"; };
-		809A0B561DDDA052009F9B83 /* GXZPCEmptyVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXZPCEmptyVIew.h; sourceTree = "<group>"; };
-		809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXZPCEmptyVIew.m; sourceTree = "<group>"; };
-		809A0B581DDDA052009F9B83 /* GXZPCEmptyVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GXZPCEmptyVIew.xib; sourceTree = "<group>"; };
+		809A0B561DDDA052009F9B83 /* GXZPCEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXZPCEmptyView.h; sourceTree = "<group>"; };
+		809A0B571DDDA052009F9B83 /* GXZPCEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXZPCEmptyView.m; sourceTree = "<group>"; };
+		809A0B581DDDA052009F9B83 /* GXZPCEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GXZPCEmptyView.xib; sourceTree = "<group>"; };
 		809A0B5A1DDDA052009F9B83 /* UIColor+UNTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UNTAdditions.h"; sourceTree = "<group>"; };
 		809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UNTAdditions.m"; sourceTree = "<group>"; };
 		809A0B5C1DDDA052009F9B83 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
@@ -200,9 +200,9 @@
 			children = (
 				809A0B541DDDA052009F9B83 /* ASBackTopView.h */,
 				809A0B551DDDA052009F9B83 /* ASBackTopView.m */,
-				809A0B561DDDA052009F9B83 /* GXZPCEmptyVIew.h */,
-				809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */,
-				809A0B581DDDA052009F9B83 /* GXZPCEmptyVIew.xib */,
+				809A0B561DDDA052009F9B83 /* GXZPCEmptyView.h */,
+				809A0B571DDDA052009F9B83 /* GXZPCEmptyView.m */,
+				809A0B581DDDA052009F9B83 /* GXZPCEmptyView.xib */,
 				809A0B591DDDA052009F9B83 /* Extension */,
 				809A0B601DDDA052009F9B83 /* MBProgressHUD+GXZEXtention.h */,
 				809A0B611DDDA052009F9B83 /* MBProgressHUD+GXZEXtention.m */,
@@ -319,7 +319,7 @@
 				809A0B9D1DDDA052009F9B83 /* UIImage+fixOrientation.h in Headers */,
 				809A0B8E1DDDA052009F9B83 /* NSString+ASThemborTranslatePathToURLstr.h in Headers */,
 				809A0B821DDDA052009F9B83 /* UIView+Extensions.h in Headers */,
-				809A0B7B1DDDA052009F9B83 /* GXZPCEmptyVIew.h in Headers */,
+				809A0B7B1DDDA052009F9B83 /* GXZPCEmptyView.h in Headers */,
 				809A0B7F1DDDA052009F9B83 /* UIColor+UNTAdditions.h in Headers */,
 				809A0B851DDDA052009F9B83 /* UIView+LoadDefineNib.h in Headers */,
 				809A085D1DDD4CA0009F9B83 /* TheGlobalExtension.h in Headers */,
@@ -416,7 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809A0B7E1DDDA052009F9B83 /* GXZPCEmptyVIew.xib in Resources */,
+				809A0B7E1DDDA052009F9B83 /* GXZPCEmptyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +503,7 @@
 				809A0B9E1DDDA052009F9B83 /* UIImage+fixOrientation.m in Sources */,
 				809A0B9B1DDDA052009F9B83 /* UIDeviceHardware.m in Sources */,
 				809A0BA71DDDA052009F9B83 /* UIView+UIView_MD_Extension.m in Sources */,
-				809A0B7C1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */,
+				809A0B7C1DDDA052009F9B83 /* GXZPCEmptyView.m in Sources */,
 				809A0BA41DDDA052009F9B83 /* UITableViewCell+ASReuseCell.m in Sources */,
 				809A0B981DDDA052009F9B83 /* UIColor+AVRColors.m in Sources */,
 				809A0B8F1DDDA052009F9B83 /* NSString+ASThemborTranslatePathToURLstr.m in Sources */,
@@ -518,7 +518,7 @@
 				809A0BA81DDDA052009F9B83 /* UIView+UIView_MD_Extension.m in Sources */,
 				809A0B871DDDA052009F9B83 /* UIView+LoadDefineNib.m in Sources */,
 				809A0B991DDDA052009F9B83 /* UIColor+AVRColors.m in Sources */,
-				809A0B7D1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */,
+				809A0B7D1DDDA052009F9B83 /* GXZPCEmptyView.m in Sources */,
 				809A0BA21DDDA052009F9B83 /* UIScollView+ASScrollViewEX.m in Sources */,
 				809A0BAB1DDDA052009F9B83 /* UIViewController+ASGXZ.m in Sources */,
 				809A0B811DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */,

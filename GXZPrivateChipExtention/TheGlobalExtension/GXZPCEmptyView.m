@@ -6,9 +6,10 @@
 //  Copyright © 2016年 avarsha. All rights reserved.
 //
 
-#import "GXZPCEmptyVIew.h"
+#import "GXZPCEmptyView.h"
 
-@implementation GXZPCEEmptyVIew
+
+@implementation GXZPCEEmptyView
 
 
 -(void)awakeFromNib
@@ -23,7 +24,7 @@
    //[self.TitleLabel setText:@"Hmm..you'are not connected to the internet\n\nPlease try again"];
     NSMutableParagraphStyle *paragraphstyle=[[NSMutableParagraphStyle alloc] init];
     [paragraphstyle setLineSpacing:5.0];
-    
+     
     NSAttributedString *titleAttString=[[NSAttributedString alloc] initWithString:@"Hmm..you'are not connected to the internet\nPlease try again" attributes:@{NSParagraphStyleAttributeName:paragraphstyle,NSFontAttributeName:[UIFont systemFontOfSize:15.0],NSForegroundColorAttributeName:GXZPCEUISColorS(130,1.0)}];
     [self.TitleLabel setAttributedText:titleAttString];
     [self.TitleLabel setNumberOfLines:0];

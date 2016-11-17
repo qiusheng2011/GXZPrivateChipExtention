@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GXZPCEEmptyVIew : UIView
+@interface GXZPCEEmptyView : UIView
 
 @property (weak, nonatomic) IBOutlet UILabel *TitleLabel;
 @property (weak, nonatomic) IBOutlet UIButton *retrybutton;
