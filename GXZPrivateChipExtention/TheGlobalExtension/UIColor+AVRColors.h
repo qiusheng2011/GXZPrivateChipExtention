@@ -15,7 +15,7 @@
 + (UIColor *)avr_blackColor;
 + (UIColor *)avr_whiteColor;
 + (UIColor *)avr_steelColor;
-+ (UIColor *)avr_scarlet1Color;
+//+ (UIColor *)avr_scarlet1Color;
 + (UIColor *)ai_warmGreyColor;
 + (UIColor *)ai_whiteColor;
 
