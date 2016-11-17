@@ -1,0 +1,145 @@
+你可以通过数组的方法和属性来修改数组，或者使用下标脚本语法
+要得出数组中元素的数量，检查只读的count属性
+    print("The shopong list contains \(shoppingList.count)items.")
+    // prints "The shopping list contains 2 items"
+    使用布尔量 isEnpty 属性来作为减肥画册count属性 是否等于0 的快捷方式：
+
+    if shoppingList.isEmpty {
+    	print ("The shopping list is empty.")
+    	
+    } else {
+    	 print("The shioping lsit is not empty.")
+
+    }
+    // prints " sTHe shopping list is not empty."
+    你可以通过 append（_:）方法给数组末尾添加新的元素
+
+    shoppingLIst.append("Flout"_)
+    // shoppingList now contains 3 items,aand someone is making pancakes
+    另外，可以使用加赋值运算符（=+）来在数组末尾太能添加一个或者多个同类型元素：
+    shoppingList  += ["Baking Powder"]
+    // shopingList now contains 4 items
+    shoppingList+=["Choclat Spread","Cheese","Butter"]
+     // shoppinbgList now contgains 7 items 
+     通过下标配脚本语法来从数组的那个取回一个值，在惊啊恩数组=名后的方括号内传入你想要的取回的值得所以呢：
+     var firstIemt = shoppingLIst[0]
+     // firstIemt  is equal to "Eggs"
+
+     注意
+     数组中的第一个元素的索引为 0 不是1 ，Swift总的数组都是零开头的。
+     你可以使用小标脚本原发来改变给定缩影中已经存咋IDE值
+
+     shoppingList[0]= "Si eggs "
+     // thefitst istem in the lsit is now equal to "Six eggs" rather than "Eggs"
+     你同样可以使用下标i脚本河南语法来一次改变一个范围的值，就算你替换与范围长度不同的值的结合也行。 下面的例子替换用“Bananas” 和 “Apples” 替换成”Chocdolate Sparead","Cheese", and "Butter":
+
+     shoppingLIst[4...6]= ["Bananas","Apples"]
+     // shoppingList now conttains 6 items 
+
+     注意
+     你不能用下标骄傲本语法来追加一个新元素到数组的末尾
+
+     要把元素插入刀片特定的缩影位置，调用数序的insert（_:at:）方法L
+
+     shoppingList.insert("Maple yrup",at:0)
+     // shoppingList now contains 7 items 
+     // "Maple Syrup " is now the first istme in the list 
+
+     调用insert(_:at:e方法插入了一个信誉啊加速值位“Maple Syrup”) 到shopping list 的最前面，通明确缩影位值位0
+     类似第，你可以使用 remove（at:）方法来移除一个雨啊健脑素。 这个方法移除特定缩影的元素并且返回它（尽管你不需要的话可以无事返回的值）：
+     let mapleSyrup = shoppingList.remove(at:0)
+     // the item that was at index 0 has just benn removed
+     // shoppongList now containts 6 items ,and no Maple Syrup  constant is now equal to the removed "Maple Syrup" string
+
+     注意如果你访问或者修改一个超出数组辩解索引的值，你将会触发运势错误，你可以在使用所以亲爱呢通过对比树枝句的count
+     属性来就爱你差他。 除非当count位0 （就是说数组位空），否则最大的合法所以呢永远都是count -1 因为is护照的缩影从零开始
+
+     当数组中元素呗移除，任何留下的空白都会被封闭，所以所以呢0的值再一次等于 “Six eggs”:
+
+     firstItem = shoppingList[0]
+     //firstItem isnow equal to "Six eggs"
+
+    如果你想要移除数组最后一个元素，使用removeLast（）方法而不是removeAtIndex(_:)方法以避免查询属猪的count
+    属性。 与 removeAtIndex(_:)方法相同，removeLast（）返回删除了 元素
+    let apples= shoppingList.removeLast()
+
+    // the last itme in the array has jsut been remove 
+    // shoppingList now contains 5 items ,and no apples 
+    // the apples  constant is now equal to the remove "apples"string
+    遍历数组 
+    你可以用for-in 玄幻来便利整个数组中的值的集合：
+
+    for item in shoppingList {
+    	print (items)
+
+    }
+
+    // Six eggs 
+    //Milk
+    //Flour
+    //Baking Powder
+    //Bananas
+    如果你需要每个元素以及值的整数索引，使用enumeratd() 方法来便利数组。 enumerated()方法返回数组中每一个元素的元祖，包含了这个元素的索引和值。你可以分解元祖位临时的常量或者变量作为遍历的一部分：
+
+    for(index ,value ) in shoppingList.enumerate()
+    {
+      print("item \(index+1):\(value)")
+
+
+    }
+
+  // item 1 :Six eggs 
+ // item 2 : Milk
+// item 3: Flour
+// item4 : Baking Powder
+// item 5 ：Bananas
+
+关于for-in 循环的更多内容，见for-in 循环
+
+
+
+集合将同一类型且不重复的值无序存储在列表当中，当元素的顺序不那么重要的时候你就可以使用集合来替代数组，
+或者你需要确保元素不会重复的时候。
+注意
+swift 中的set 无缝桥架到了Object-c的基础框架NSSet殇
+
+Set类型的哈希值
+
+为了能让类型存储在集合中，类型的值必须是可哈希的。
+就是说类型必须提供计算它自身哈希值的方法。
+哈希值是Int 值且 所有对比起来相等的对象都相同，
+比如 a=b ，它遵循 a.hashvalue= b.hashvalue
+
+所有swift 的基础类型（比如：string，int ，double和bool）默认都是可哈希的，并且可以用于集合或者字典的键。
+没有关联值的枚举成员值同样默认是可哈希的。
+注意
+
+你可以使用你自己自定义的类型作为集合的值类型或者字典的键类型，只要他们遵循上eift基础库的hashable协议即可。
+遵循Hashable协议的类型必须提供可获取的叫做hashValue 的Int 属性，通Hashvalue属性返回的值不需要在同一个程序的不同的执行当中都相同，或者不同程序
+
+因为 Hashable 遵循 Equatable ,遵循的类型必须同时实现一个“等于”运算符的实现。Equatable 协议需要遵循 == 的实现都具有等价关系，就是说++ 的实现必须满足一下三个条件，其中a,b 和c 是任意值.
+
+a=a  b=a  a=b    a=b b=c  a=c 
+
+创建并初始化一个空集合
+
+你可以使用初始化器语法来创建一个确定类型的空集合
+
+var letters = Set<Character> ,基于初始化器的类型
+
+letters 变量 的类型呗推断位Set<Character>,基于初始化器的类型
+
+
+另外，拖过内容同已经提供了类型信息，比如函数的师姐参数或者已经匪类的变量常量，你就可以用空的数组字面量来创建一个空集合：
+letters.insert("a ")
+// letters  now contains 1 value of type Character
+
+letters=[]
+//letters is now an empty  set ,but is still of type Set<Character>
+
+使用数组字面量创建集合
+
+你同样可以使用数组字面量来初始化一个合集，算是一种写一个或者多个集合值的快键方式。
+
+
+
