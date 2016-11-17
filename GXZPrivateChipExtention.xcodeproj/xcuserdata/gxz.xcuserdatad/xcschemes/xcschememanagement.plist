@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>GXZPrivateChipExtention StaticLibrary.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>GXZPrivateChipExtention.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>809A08671DDD62C3009F9B83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>80F3C4681DDC498F00A0C0B5</key>
 		<dict>
 			<key>primary</key>

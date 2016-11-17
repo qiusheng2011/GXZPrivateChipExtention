@@ -8,29 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		809A085D1DDD4CA0009F9B83 /* TheGlobalExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A085C1DDD4CA0009F9B83 /* TheGlobalExtension.h */; };
-		80F3C4731DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F3C4691DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework */; };
-		80F3C4781DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F3C4771DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m */; };
+		809A08601DDD6154009F9B83 /* TheGlobalExtension in Headers */ = {isa = PBXBuildFile; fileRef = 80F3C4851DDC52F600A0C0B5 /* TheGlobalExtension */; };
+		809A08611DDD6154009F9B83 /* Extension in Headers */ = {isa = PBXBuildFile; fileRef = 80F3C4831DDC4FE200A0C0B5 /* Extension */; };
+		809A08621DDD6175009F9B83 /* TheGlobalExtension in Sources */ = {isa = PBXBuildFile; fileRef = 80F3C4851DDC52F600A0C0B5 /* TheGlobalExtension */; };
+		809A08631DDD617A009F9B83 /* Extension in Sources */ = {isa = PBXBuildFile; fileRef = 80F3C4831DDC4FE200A0C0B5 /* Extension */; };
+		809A086C1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A086B1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.m */; };
+		809A086D1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 809A086A1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.h */; };
 		80F3C47A1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		80F3C4841DDC4FE200A0C0B5 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = 80F3C4831DDC4FE200A0C0B5 /* Extension */; };
 		80F3C4861DDC52F600A0C0B5 /* TheGlobalExtension in Resources */ = {isa = PBXBuildFile; fileRef = 80F3C4851DDC52F600A0C0B5 /* TheGlobalExtension */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		80F3C4741DDC498F00A0C0B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 80F3C4601DDC498F00A0C0B5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80F3C4681DDC498F00A0C0B5;
-			remoteInfo = GXZPrivateChipExtention;
+/* Begin PBXCopyFilesBuildPhase section */
+		809A08661DDD62C3009F9B83 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				809A086D1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXContainerItemProxy section */
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		809A085C1DDD4CA0009F9B83 /* TheGlobalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheGlobalExtension.h; sourceTree = "<group>"; };
+		809A08681DDD62C3009F9B83 /* libGXZPrivateChipExtention StaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libGXZPrivateChipExtention StaticLibrary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809A086A1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXZPrivateChipExtention_StaticLibrary.h; sourceTree = "<group>"; };
+		809A086B1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXZPrivateChipExtention_StaticLibrary.m; sourceTree = "<group>"; };
 		80F3C4691DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXZPrivateChipExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXZPrivateChipExtention.h; sourceTree = "<group>"; };
 		80F3C46D1DDC498F00A0C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80F3C4721DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GXZPrivateChipExtentionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F3C4771DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GXZPrivateChipExtentionTests.m; sourceTree = "<group>"; };
 		80F3C4791DDC498F00A0C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80F3C4831DDC4FE200A0C0B5 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
@@ -38,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		809A08651DDD62C3009F9B83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80F3C4651DDC498F00A0C0B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,22 +61,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80F3C46F1DDC498F00A0C0B5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80F3C4731DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		809A08691DDD62C4009F9B83 /* GXZPrivateChipExtention StaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				809A086A1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.h */,
+				809A086B1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.m */,
+			);
+			path = "GXZPrivateChipExtention StaticLibrary";
+			sourceTree = "<group>";
+		};
 		80F3C45F1DDC498F00A0C0B5 = {
 			isa = PBXGroup;
 			children = (
 				80F3C46B1DDC498F00A0C0B5 /* GXZPrivateChipExtention */,
 				80F3C4761DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests */,
+				809A08691DDD62C4009F9B83 /* GXZPrivateChipExtention StaticLibrary */,
 				80F3C46A1DDC498F00A0C0B5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				80F3C4691DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework */,
-				80F3C4721DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.xctest */,
+				809A08681DDD62C3009F9B83 /* libGXZPrivateChipExtention StaticLibrary.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +121,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F3C47A1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h in Headers */,
+				809A08601DDD6154009F9B83 /* TheGlobalExtension in Headers */,
+				809A08611DDD6154009F9B83 /* Extension in Headers */,
 				809A085D1DDD4CA0009F9B83 /* TheGlobalExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +130,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		809A08671DDD62C3009F9B83 /* GXZPrivateChipExtention StaticLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809A086E1DDD62C4009F9B83 /* Build configuration list for PBXNativeTarget "GXZPrivateChipExtention StaticLibrary" */;
+			buildPhases = (
+				809A08641DDD62C3009F9B83 /* Sources */,
+				809A08651DDD62C3009F9B83 /* Frameworks */,
+				809A08661DDD62C3009F9B83 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GXZPrivateChipExtention StaticLibrary";
+			productName = "GXZPrivateChipExtention StaticLibrary";
+			productReference = 809A08681DDD62C3009F9B83 /* libGXZPrivateChipExtention StaticLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		80F3C4681DDC498F00A0C0B5 /* GXZPrivateChipExtention */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80F3C47D1DDC498F00A0C0B5 /* Build configuration list for PBXNativeTarget "GXZPrivateChipExtention" */;
@@ -128,24 +165,6 @@
 			productReference = 80F3C4691DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		80F3C4711DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 80F3C4801DDC498F00A0C0B5 /* Build configuration list for PBXNativeTarget "GXZPrivateChipExtentionTests" */;
-			buildPhases = (
-				80F3C46E1DDC498F00A0C0B5 /* Sources */,
-				80F3C46F1DDC498F00A0C0B5 /* Frameworks */,
-				80F3C4701DDC498F00A0C0B5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				80F3C4751DDC498F00A0C0B5 /* PBXTargetDependency */,
-			);
-			name = GXZPrivateChipExtentionTests;
-			productName = GXZPrivateChipExtentionTests;
-			productReference = 80F3C4721DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,12 +174,12 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = gxz;
 				TargetAttributes = {
-					80F3C4681DDC498F00A0C0B5 = {
+					809A08671DDD62C3009F9B83 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 78DB8B4M77;
 						ProvisioningStyle = Automatic;
 					};
-					80F3C4711DDC498F00A0C0B5 = {
+					80F3C4681DDC498F00A0C0B5 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 78DB8B4M77;
 						ProvisioningStyle = Automatic;
@@ -179,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				809A08671DDD62C3009F9B83 /* GXZPrivateChipExtention StaticLibrary */,
 				80F3C4681DDC498F00A0C0B5 /* GXZPrivateChipExtention */,
-				80F3C4711DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,42 +214,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80F3C4701DDC498F00A0C0B5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		809A08641DDD62C3009F9B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809A086C1DDD62C4009F9B83 /* GXZPrivateChipExtention_StaticLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		80F3C4641DDC498F00A0C0B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		80F3C46E1DDC498F00A0C0B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80F3C4781DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m in Sources */,
+				809A08631DDD617A009F9B83 /* Extension in Sources */,
+				809A08621DDD6175009F9B83 /* TheGlobalExtension in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		80F3C4751DDC498F00A0C0B5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 80F3C4681DDC498F00A0C0B5 /* GXZPrivateChipExtention */;
-			targetProxy = 80F3C4741DDC498F00A0C0B5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		809A086F1DDD62C4009F9B83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 78DB8B4M77;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		809A08701DDD62C4009F9B83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 78DB8B4M77;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		80F3C47B1DDC498F00A0C0B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -367,31 +393,17 @@
 			};
 			name = Release;
 		};
-		80F3C4811DDC498F00A0C0B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 78DB8B4M77;
-				INFOPLIST_FILE = GXZPrivateChipExtentionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gxzprivate.GXZPrivateChipExtentionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		80F3C4821DDC498F00A0C0B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = 78DB8B4M77;
-				INFOPLIST_FILE = GXZPrivateChipExtentionTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = gxzprivate.GXZPrivateChipExtentionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		809A086E1DDD62C4009F9B83 /* Build configuration list for PBXNativeTarget "GXZPrivateChipExtention StaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809A086F1DDD62C4009F9B83 /* Debug */,
+				809A08701DDD62C4009F9B83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		80F3C4631DDC498F00A0C0B5 /* Build configuration list for PBXProject "GXZPrivateChipExtention" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -406,15 +418,6 @@
 			buildConfigurations = (
 				80F3C47E1DDC498F00A0C0B5 /* Debug */,
 				80F3C47F1DDC498F00A0C0B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		80F3C4801DDC498F00A0C0B5 /* Build configuration list for PBXNativeTarget "GXZPrivateChipExtentionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				80F3C4811DDC498F00A0C0B5 /* Debug */,
-				80F3C4821DDC498F00A0C0B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
