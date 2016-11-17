@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD-iOS8.4/MBProgressHUD.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry-iOS8.4/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD-iOS8.4/MBProgressHUD.framework"
   install_framework "$BUILT_PRODUCTS_DIR/Masonry-iOS8.4/Masonry.framework"
 fi

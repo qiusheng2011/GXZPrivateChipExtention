@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   						Private_EXtensiondfsdfsdfsdfsedfsdfesdfsdfesdfsdfdsfsfsdfsdfewwr
   					DESC
 
-  s.homepage     = "https://github.com/qiusheng2011/GXZPrivateChipExtension"
+  s.homepage     = "https://github.com/qiusheng2011/GXZPrivateChipExtention.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -133,7 +133,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "MBProgressHUD", '~> 1.0.0'
-  s.dependency "Masnory",'~>1.0.2'
+  s.dependency 'MBProgressHUD', '~> 1.0.0'
+  s.dependency 'Masonry' ,'~>1.0.2'
 
 end

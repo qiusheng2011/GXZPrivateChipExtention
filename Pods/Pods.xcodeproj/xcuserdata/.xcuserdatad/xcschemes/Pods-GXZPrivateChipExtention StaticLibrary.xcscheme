@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5D71F460EE1E5FBBB6816E86C593C519'
+               BlueprintIdentifier = '06F2FAB350F274398CE08189AD0DD1EE'
                BlueprintName = 'Pods-GXZPrivateChipExtention StaticLibrary'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-GXZPrivateChipExtention StaticLibrary.framework'>

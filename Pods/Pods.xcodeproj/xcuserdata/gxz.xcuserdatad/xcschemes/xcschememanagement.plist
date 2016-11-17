@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MBProgressHUD-iOS8.4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>MBProgressHUD-iOS9.0.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Masonry-iOS8.4.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,6 +37,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>06F2FAB350F274398CE08189AD0DD1EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>193F40B006C43948C16666F915BD30D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>1F3C9D54081BB052205D6B953941CF3B</key>
 		<dict>
 			<key>primary</key>
@@ -38,6 +58,16 @@
 			<true/>
 		</dict>
 		<key>98648193D8C148B09B2CAE2DF956E198</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AC2050D5B874841F805BC69A1F68EA3C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4B6292081181DEEC76CC6F8C26EBB09</key>
 		<dict>
 			<key>primary</key>
 			<true/>
