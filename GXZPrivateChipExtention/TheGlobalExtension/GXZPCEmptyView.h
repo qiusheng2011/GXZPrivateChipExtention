@@ -1,7 +1,4 @@
-//
-//  GXZPCEEmptyVIew.h
-//  avarsha
-//
+
 //  Created by gxz on 16/4/28.
 //  Copyright © 2016年 avarsha. All rights reserved.
 //
