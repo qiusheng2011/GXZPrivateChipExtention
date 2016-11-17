@@ -6,7 +6,7 @@
 //  Copyright © 2015 MD_GAO. All rights reserved.
 //
 
-//#import <MBProgressHUD/MBProgressHUD.h>
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @class MBProgressHUD
 @interface MBProgressHUD (GXZEXtention)

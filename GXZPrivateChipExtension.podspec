@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "GXZPrivateChipExtention/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  =  "GXZPrivateChipExtention/**/*.{h,m}"
+  #s.exclude_files = "GXZPrivateChipExtention/Exclude"
 
-   s.public_header_files = "GXZPrivateChipExtention/GXZPrivateChipExtention/**/*.h"
+   s.public_header_files = "GXZPrivateChipExtention/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
