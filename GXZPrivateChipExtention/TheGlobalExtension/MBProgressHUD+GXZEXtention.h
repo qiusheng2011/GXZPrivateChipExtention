@@ -13,6 +13,6 @@
 
 
 
-//+(void)showTextToast:(NSString*)text toView:(UIView*)view withTimeInternal:(CGFloat)internalT ;
-//+(void)showTextToast:(NSString*)text toView:(UIView*)view withTimeInternal:(CGFloat)internalT completionBlock:(void (^)())completion;
++(void)showTextToast:(NSString*)text toView:(UIView*)view withTimeInternal:(CGFloat)internalT ;
++(void)showTextToast:(NSString*)text toView:(UIView*)view withTimeInternal:(CGFloat)internalT completionBlock:(void (^)())completion;
 @end
