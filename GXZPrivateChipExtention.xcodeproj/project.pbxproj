@@ -19,7 +19,6 @@
 		809A0B781DDDA052009F9B83 /* ASBackTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B541DDDA052009F9B83 /* ASBackTopView.h */; };
 		809A0B791DDDA052009F9B83 /* ASBackTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B551DDDA052009F9B83 /* ASBackTopView.m */; };
 		809A0B7A1DDDA052009F9B83 /* ASBackTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B551DDDA052009F9B83 /* ASBackTopView.m */; };
-		809A0B7E1DDDA052009F9B83 /* GXZPCEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809A0B581DDDA052009F9B83 /* GXZPCEmptyView.xib */; };
 		809A0B7F1DDDA052009F9B83 /* UIColor+UNTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B5A1DDDA052009F9B83 /* UIColor+UNTAdditions.h */; };
 		809A0B801DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */; };
 		809A0B811DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */; };
@@ -99,7 +98,6 @@
 		809A08771DDD99A5009F9B83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		809A0B541DDDA052009F9B83 /* ASBackTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBackTopView.h; sourceTree = "<group>"; };
 		809A0B551DDDA052009F9B83 /* ASBackTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBackTopView.m; sourceTree = "<group>"; };
-		809A0B581DDDA052009F9B83 /* GXZPCEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GXZPCEmptyView.xib; sourceTree = "<group>"; };
 		809A0B5A1DDDA052009F9B83 /* UIColor+UNTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UNTAdditions.h"; sourceTree = "<group>"; };
 		809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UNTAdditions.m"; sourceTree = "<group>"; };
 		809A0B5C1DDDA052009F9B83 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 			children = (
 				809A0B541DDDA052009F9B83 /* ASBackTopView.h */,
 				809A0B551DDDA052009F9B83 /* ASBackTopView.m */,
-				809A0B581DDDA052009F9B83 /* GXZPCEmptyView.xib */,
 				809A0B591DDDA052009F9B83 /* Extension */,
 				809A0B601DDDA052009F9B83 /* MBProgressHUD+GXZEXtention.h */,
 				809A0B611DDDA052009F9B83 /* MBProgressHUD+GXZEXtention.m */,
@@ -408,7 +405,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809A0B7E1DDDA052009F9B83 /* GXZPCEmptyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

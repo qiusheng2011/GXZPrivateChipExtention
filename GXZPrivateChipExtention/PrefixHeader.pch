@@ -23,6 +23,6 @@
 
 #define GXZPCE_NOTIFICATION_SignUp_StyleNoti   @"GXZPCE_NOTIFICATION_SignUp_StyleNoti"
 
-#define GXZPCEUISColorS(R,A) [UIColor colorWithRed:R/255.0 green:R/255.0 blue:R/255.0 alpha:A]
+#define GXZPCEUISColorS(R,A)  [UIColor colorWithRed:R/255.0 green:R/255.0 blue:R/255.0 alpha:A]
 
 #endif /* PrefixHeader_pch */
