@@ -4,7 +4,7 @@
 target 'GXZPrivateChipExtention' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
     use_frameworks!
-    pod 'Masonry'
+    pod 'Masonry' 
   # Pods for GXZPrivateChipExtention
 
 end
