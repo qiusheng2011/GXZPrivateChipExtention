@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		809A085D1DDD4CA0009F9B83 /* TheGlobalExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A085C1DDD4CA0009F9B83 /* TheGlobalExtension.h */; };
 		80F3C4731DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F3C4691DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework */; };
 		80F3C4781DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80F3C4771DDC498F00A0C0B5 /* GXZPrivateChipExtentionTests.m */; };
 		80F3C47A1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		809A085C1DDD4CA0009F9B83 /* TheGlobalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheGlobalExtension.h; sourceTree = "<group>"; };
 		80F3C4691DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXZPrivateChipExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXZPrivateChipExtention.h; sourceTree = "<group>"; };
 		80F3C46D1DDC498F00A0C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				80F3C4831DDC4FE200A0C0B5 /* Extension */,
 				80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */,
 				80F3C46D1DDC498F00A0C0B5 /* Info.plist */,
+				809A085C1DDD4CA0009F9B83 /* TheGlobalExtension.h */,
 			);
 			path = GXZPrivateChipExtention;
 			sourceTree = "<group>";
@@ -100,6 +103,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80F3C47A1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h in Headers */,
+				809A085D1DDD4CA0009F9B83 /* TheGlobalExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
