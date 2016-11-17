@@ -8,7 +8,7 @@
 
 #import <MBProgressHUD/MBProgressHUD.h>
 
-@class MBProgressHUD
+@class MBProgressHUD;
 @interface MBProgressHUD (GXZEXtention)
 
 

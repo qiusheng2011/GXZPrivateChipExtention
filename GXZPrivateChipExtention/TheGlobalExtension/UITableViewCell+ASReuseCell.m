@@ -1,5 +1,5 @@
 //
-//  UITableViewCell+ASReuseCell.m
+//  UITableViewCell+GXZPCEReuseCell.m
 //  avarsha
 //
 //  Created by gxz on 16/4/6.
@@ -8,7 +8,7 @@
 
 #import "UITableViewCell+ASReuseCell.h"
 
-@implementation UITableViewCell (ASReuseCell)
+@implementation UITableViewCell (GXZPCEReuseCell)
 
 
 

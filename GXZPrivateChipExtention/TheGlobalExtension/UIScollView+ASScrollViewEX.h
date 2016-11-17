@@ -1,5 +1,5 @@
 //
-//  UIScollView+ASScrollViewEX.h
+//  UIScollView+GXZPCEScrollViewEX.h
 //  avarsha
 //
 //  Created by gxz on 16/5/17.
@@ -7,9 +7,9 @@
 //
 
 #import "ASBackTopView.h"
-@interface UIScrollView (ASScrollViewEX)
+@interface UIScrollView (GXZPCEScrollViewEX)
 
-@property (nonatomic,weak) ASBackTopView* backTopView;
+@property (nonatomic,weak) GXZPCEBackTopView* backTopView;
 @property (nonatomic,assign)BOOL backTopViewHiden;
 //- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView Bottom:(CGFloat)height;

@@ -1,5 +1,5 @@
 //
-//  UIViewController+ASGXZ.h
+//  UIViewController+GXZPCEGXZ.h
 //  avarsha
 //
 //  Created by gxz on 16/4/9.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIViewController (ASGXZ)
+@interface UIViewController (GXZPCEGXZ)
 
 +(instancetype)ShareSngileInterface;
 

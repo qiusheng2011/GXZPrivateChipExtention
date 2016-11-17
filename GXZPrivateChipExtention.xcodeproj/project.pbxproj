@@ -14,16 +14,15 @@
 		809A08741DDD998E009F9B83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A08731DDD998E009F9B83 /* UIKit.framework */; };
 		809A08761DDD9998009F9B83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A08751DDD9998009F9B83 /* CoreGraphics.framework */; };
 		809A08781DDD99A5009F9B83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A08771DDD99A5009F9B83 /* Foundation.framework */; };
-		809A08791DDD99AF009F9B83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A08751DDD9998009F9B83 /* CoreGraphics.framework */; };
 		809A087A1DDD99B6009F9B83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A08731DDD998E009F9B83 /* UIKit.framework */; };
 		809A087B1DDD99C2009F9B83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A08771DDD99A5009F9B83 /* Foundation.framework */; };
 		809A0B781DDDA052009F9B83 /* ASBackTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B541DDDA052009F9B83 /* ASBackTopView.h */; };
 		809A0B791DDDA052009F9B83 /* ASBackTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B551DDDA052009F9B83 /* ASBackTopView.m */; };
 		809A0B7A1DDDA052009F9B83 /* ASBackTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B551DDDA052009F9B83 /* ASBackTopView.m */; };
-		809A0B7B1DDDA052009F9B83 /* ASEmptyVIew.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B561DDDA052009F9B83 /* ASEmptyVIew.h */; };
-		809A0B7C1DDDA052009F9B83 /* ASEmptyVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* ASEmptyVIew.m */; };
-		809A0B7D1DDDA052009F9B83 /* ASEmptyVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* ASEmptyVIew.m */; };
-		809A0B7E1DDDA052009F9B83 /* ASEmptyVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809A0B581DDDA052009F9B83 /* ASEmptyVIew.xib */; };
+		809A0B7B1DDDA052009F9B83 /* GXZPCEmptyVIew.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B561DDDA052009F9B83 /* GXZPCEmptyVIew.h */; };
+		809A0B7C1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */; };
+		809A0B7D1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */; };
+		809A0B7E1DDDA052009F9B83 /* GXZPCEmptyVIew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809A0B581DDDA052009F9B83 /* GXZPCEmptyVIew.xib */; };
 		809A0B7F1DDDA052009F9B83 /* UIColor+UNTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B5A1DDDA052009F9B83 /* UIColor+UNTAdditions.h */; };
 		809A0B801DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */; };
 		809A0B811DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */; };
@@ -69,6 +68,10 @@
 		809A0BA91DDDA052009F9B83 /* UIViewController+ASGXZ.h in Headers */ = {isa = PBXBuildFile; fileRef = 809A0B761DDDA052009F9B83 /* UIViewController+ASGXZ.h */; };
 		809A0BAA1DDDA052009F9B83 /* UIViewController+ASGXZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B771DDDA052009F9B83 /* UIViewController+ASGXZ.m */; };
 		809A0BAB1DDDA052009F9B83 /* UIViewController+ASGXZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 809A0B771DDDA052009F9B83 /* UIViewController+ASGXZ.m */; };
+		809A0BAC1DDDA710009F9B83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A08751DDD9998009F9B83 /* CoreGraphics.framework */; };
+		809A0BAE1DDDA765009F9B83 /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 809A0BAD1DDDA765009F9B83 /* PrefixHeader.pch */; };
+		809A0BB01DDDA8EA009F9B83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A0BAF1DDDA8EA009F9B83 /* SystemConfiguration.framework */; };
+		809A0BB11DDDA8F0009F9B83 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 809A0BAF1DDDA8EA009F9B83 /* SystemConfiguration.framework */; };
 		80F3C47A1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E05AD196910D73A704E2A83F /* Pods_GXZPrivateChipExtention_StaticLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151FB0B274489C577C983495 /* Pods_GXZPrivateChipExtention_StaticLibrary.framework */; };
 /* End PBXBuildFile section */
@@ -99,9 +102,9 @@
 		809A08771DDD99A5009F9B83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		809A0B541DDDA052009F9B83 /* ASBackTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBackTopView.h; sourceTree = "<group>"; };
 		809A0B551DDDA052009F9B83 /* ASBackTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBackTopView.m; sourceTree = "<group>"; };
-		809A0B561DDDA052009F9B83 /* ASEmptyVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASEmptyVIew.h; sourceTree = "<group>"; };
-		809A0B571DDDA052009F9B83 /* ASEmptyVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASEmptyVIew.m; sourceTree = "<group>"; };
-		809A0B581DDDA052009F9B83 /* ASEmptyVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASEmptyVIew.xib; sourceTree = "<group>"; };
+		809A0B561DDDA052009F9B83 /* GXZPCEmptyVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GXZPCEmptyVIew.h; sourceTree = "<group>"; };
+		809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GXZPCEmptyVIew.m; sourceTree = "<group>"; };
+		809A0B581DDDA052009F9B83 /* GXZPCEmptyVIew.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GXZPCEmptyVIew.xib; sourceTree = "<group>"; };
 		809A0B5A1DDDA052009F9B83 /* UIColor+UNTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UNTAdditions.h"; sourceTree = "<group>"; };
 		809A0B5B1DDDA052009F9B83 /* UIColor+UNTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UNTAdditions.m"; sourceTree = "<group>"; };
 		809A0B5C1DDDA052009F9B83 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 		809A0B751DDDA052009F9B83 /* UIView+UIView_MD_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView_MD_Extension.m"; sourceTree = "<group>"; };
 		809A0B761DDDA052009F9B83 /* UIViewController+ASGXZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ASGXZ.h"; sourceTree = "<group>"; };
 		809A0B771DDDA052009F9B83 /* UIViewController+ASGXZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ASGXZ.m"; sourceTree = "<group>"; };
+		809A0BAD1DDDA765009F9B83 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		809A0BAF1DDDA8EA009F9B83 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		80F3C4691DDC498F00A0C0B5 /* GXZPrivateChipExtention.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GXZPrivateChipExtention.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GXZPrivateChipExtention.h; sourceTree = "<group>"; };
 		80F3C46D1DDC498F00A0C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809A0BB11DDDA8F0009F9B83 /* SystemConfiguration.framework in Frameworks */,
 				809A08781DDD99A5009F9B83 /* Foundation.framework in Frameworks */,
 				809A08761DDD9998009F9B83 /* CoreGraphics.framework in Frameworks */,
 				809A08741DDD998E009F9B83 /* UIKit.framework in Frameworks */,
@@ -158,9 +164,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809A0BB01DDDA8EA009F9B83 /* SystemConfiguration.framework in Frameworks */,
+				809A0BAC1DDDA710009F9B83 /* CoreGraphics.framework in Frameworks */,
 				809A087B1DDD99C2009F9B83 /* Foundation.framework in Frameworks */,
 				809A087A1DDD99B6009F9B83 /* UIKit.framework in Frameworks */,
-				809A08791DDD99AF009F9B83 /* CoreGraphics.framework in Frameworks */,
 				41F3E61893F92D90507B42A0 /* Pods_GXZPrivateChipExtention.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,9 +200,9 @@
 			children = (
 				809A0B541DDDA052009F9B83 /* ASBackTopView.h */,
 				809A0B551DDDA052009F9B83 /* ASBackTopView.m */,
-				809A0B561DDDA052009F9B83 /* ASEmptyVIew.h */,
-				809A0B571DDDA052009F9B83 /* ASEmptyVIew.m */,
-				809A0B581DDDA052009F9B83 /* ASEmptyVIew.xib */,
+				809A0B561DDDA052009F9B83 /* GXZPCEmptyVIew.h */,
+				809A0B571DDDA052009F9B83 /* GXZPCEmptyVIew.m */,
+				809A0B581DDDA052009F9B83 /* GXZPCEmptyVIew.xib */,
 				809A0B591DDDA052009F9B83 /* Extension */,
 				809A0B601DDDA052009F9B83 /* MBProgressHUD+GXZEXtention.h */,
 				809A0B611DDDA052009F9B83 /* MBProgressHUD+GXZEXtention.m */,
@@ -266,6 +273,7 @@
 				80F3C46C1DDC498F00A0C0B5 /* GXZPrivateChipExtention.h */,
 				80F3C46D1DDC498F00A0C0B5 /* Info.plist */,
 				809A085C1DDD4CA0009F9B83 /* TheGlobalExtension.h */,
+				809A0BAD1DDDA765009F9B83 /* PrefixHeader.pch */,
 			);
 			path = GXZPrivateChipExtention;
 			sourceTree = "<group>";
@@ -282,6 +290,7 @@
 		9242F0702D5E71A95DC44370 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				809A0BAF1DDDA8EA009F9B83 /* SystemConfiguration.framework */,
 				809A08771DDD99A5009F9B83 /* Foundation.framework */,
 				809A08751DDD9998009F9B83 /* CoreGraphics.framework */,
 				809A08731DDD998E009F9B83 /* UIKit.framework */,
@@ -302,6 +311,7 @@
 				809A0BA61DDDA052009F9B83 /* UIView+UIView_MD_Extension.h in Headers */,
 				809A0BA91DDDA052009F9B83 /* UIViewController+ASGXZ.h in Headers */,
 				809A0BA31DDDA052009F9B83 /* UITableViewCell+ASReuseCell.h in Headers */,
+				809A0BAE1DDDA765009F9B83 /* PrefixHeader.pch in Headers */,
 				809A0B8B1DDDA052009F9B83 /* NSObject+NSObject_GAO_NSObjectExtension.h in Headers */,
 				809A0B881DDDA052009F9B83 /* MBProgressHUD+GXZEXtention.h in Headers */,
 				809A0B971DDDA052009F9B83 /* UIColor+AVRColors.h in Headers */,
@@ -309,7 +319,7 @@
 				809A0B9D1DDDA052009F9B83 /* UIImage+fixOrientation.h in Headers */,
 				809A0B8E1DDDA052009F9B83 /* NSString+ASThemborTranslatePathToURLstr.h in Headers */,
 				809A0B821DDDA052009F9B83 /* UIView+Extensions.h in Headers */,
-				809A0B7B1DDDA052009F9B83 /* ASEmptyVIew.h in Headers */,
+				809A0B7B1DDDA052009F9B83 /* GXZPCEmptyVIew.h in Headers */,
 				809A0B7F1DDDA052009F9B83 /* UIColor+UNTAdditions.h in Headers */,
 				809A0B851DDDA052009F9B83 /* UIView+LoadDefineNib.h in Headers */,
 				809A085D1DDD4CA0009F9B83 /* TheGlobalExtension.h in Headers */,
@@ -406,7 +416,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809A0B7E1DDDA052009F9B83 /* ASEmptyVIew.xib in Resources */,
+				809A0B7E1DDDA052009F9B83 /* GXZPCEmptyVIew.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,7 +503,7 @@
 				809A0B9E1DDDA052009F9B83 /* UIImage+fixOrientation.m in Sources */,
 				809A0B9B1DDDA052009F9B83 /* UIDeviceHardware.m in Sources */,
 				809A0BA71DDDA052009F9B83 /* UIView+UIView_MD_Extension.m in Sources */,
-				809A0B7C1DDDA052009F9B83 /* ASEmptyVIew.m in Sources */,
+				809A0B7C1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */,
 				809A0BA41DDDA052009F9B83 /* UITableViewCell+ASReuseCell.m in Sources */,
 				809A0B981DDDA052009F9B83 /* UIColor+AVRColors.m in Sources */,
 				809A0B8F1DDDA052009F9B83 /* NSString+ASThemborTranslatePathToURLstr.m in Sources */,
@@ -508,7 +518,7 @@
 				809A0BA81DDDA052009F9B83 /* UIView+UIView_MD_Extension.m in Sources */,
 				809A0B871DDDA052009F9B83 /* UIView+LoadDefineNib.m in Sources */,
 				809A0B991DDDA052009F9B83 /* UIColor+AVRColors.m in Sources */,
-				809A0B7D1DDDA052009F9B83 /* ASEmptyVIew.m in Sources */,
+				809A0B7D1DDDA052009F9B83 /* GXZPCEmptyVIew.m in Sources */,
 				809A0BA21DDDA052009F9B83 /* UIScollView+ASScrollViewEX.m in Sources */,
 				809A0BAB1DDDA052009F9B83 /* UIViewController+ASGXZ.m in Sources */,
 				809A0B811DDDA052009F9B83 /* UIColor+UNTAdditions.m in Sources */,
@@ -579,8 +589,11 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/GXZPrivateChipExtention/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -629,7 +642,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/GXZPrivateChipExtention/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

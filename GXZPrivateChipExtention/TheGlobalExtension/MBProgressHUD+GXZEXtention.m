@@ -19,12 +19,18 @@
     toastView.detailsLabel.text=text;
     
     toastView.minShowTime=internalT;
-    [toastView showAnimated:YES whileExecutingBlock:^{
-        
-    } completionBlock:^{
-        
-        [toastView removeFromSuperview];
-    }];
+    
+//     dispatch_sync(dispatch_get_main_queue(), ^{
+//         [toastView showAnimated:YES whileExecutingBlock:^{
+//             
+//         } completionBlock:^{
+//             
+//             [toastView removeFromSuperview];
+//         }];
+//     });
+  
+    
+  
 
     
 }
@@ -36,12 +42,12 @@
     toastView.mode=MBProgressHUDModeText;
     toastView.detailsLabel.text=text;
     toastView.minShowTime=internalT;
-    [toastView showAnimated:YES whileExecutingBlock:^{
-        
-    } completionBlock:^{
-        completion();
-        [toastView removeFromSuperview];
-    }];
+//    [toastView showAnimated:YES whileExecutingBlock:^{
+//        
+//    } completionBlock:^{
+//        completion();
+//        [toastView removeFromSuperview];
+//    }];
 
     
     

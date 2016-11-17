@@ -9,6 +9,7 @@
 #include <sys/types.h>
 #include <sys/sysctl.h>
 
+
 @implementation UIDeviceHardware
 
 + (NSString *) platform{

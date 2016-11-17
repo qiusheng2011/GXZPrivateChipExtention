@@ -1,5 +1,5 @@
 //
-//  NSString+ASThemborTranslatePathToURLstr.m
+//  NSString+GXZPCEThemborTranslatePathToURLstr.m
 //  AVarSha
 //
 //  Created by MD_GAO on 11/4/15.
@@ -8,10 +8,10 @@
 
 #import "NSString+ASThemborTranslatePathToURLstr.h"
 
-@implementation NSString (ASThemborTranslatePathToURLstr)
+@implementation NSString (GXZPCEThemborTranslatePathToURLstr)
 
 
--(NSString*)getASThemborTranslatePathToURLstrOfSize:(CGSize)imageSize
+-(NSString*)getGXZPCEThemborTranslatePathToURLstrOfSize:(CGSize)imageSize
 {
     
 //    TUOptions *opts = [[TUOptions alloc] init];
@@ -39,7 +39,7 @@
     return  @"";
 }
 
--(NSString*)getASThemborTranslatePathToURLstrOfSize:(CGSize)imageSize with:(CGRect)crop
+-(NSString*)getGXZPCEThemborTranslatePathToURLstrOfSize:(CGSize)imageSize with:(CGRect)crop
 {
 //    TUOptions *opts = [[TUOptions alloc] init];
 //    

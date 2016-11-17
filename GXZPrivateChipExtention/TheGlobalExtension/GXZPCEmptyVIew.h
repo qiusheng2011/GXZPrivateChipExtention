@@ -1,5 +1,5 @@
 //
-//  ASEmptyVIew.h
+//  GXZPCEEmptyVIew.h
 //  avarsha
 //
 //  Created by gxz on 16/4/28.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ASEmptyVIew : UIView
+@interface GXZPCEEmptyVIew : UIView
 
 @property (weak, nonatomic) IBOutlet UILabel *TitleLabel;
 @property (weak, nonatomic) IBOutlet UIButton *retrybutton;

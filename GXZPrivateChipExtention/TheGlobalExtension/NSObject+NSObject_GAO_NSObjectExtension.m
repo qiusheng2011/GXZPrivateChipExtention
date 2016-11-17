@@ -9,7 +9,7 @@
 #import "NSObject+NSObject_GAO_NSObjectExtension.h"
 #import  <objc/runtime.h>
 @implementation NSObject (NSObject_GAO_NSObjectExtension)
-@dynamic classStr
+@dynamic classStr;
 
 -(NSString*)classStr
 {

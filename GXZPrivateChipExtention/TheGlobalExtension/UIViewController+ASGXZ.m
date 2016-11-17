@@ -1,5 +1,5 @@
 //
-//  UIViewController+ASGXZ.m
+//  UIViewController+GXZPCEGXZ.m
 //  avarsha
 //
 //  Created by gxz on 16/4/9.
@@ -8,7 +8,7 @@
 
 #import "UIViewController+ASGXZ.h"
 
-@implementation UIViewController (ASGXZ)
+@implementation UIViewController (GXZPCEGXZ)
 
 
 
@@ -49,7 +49,7 @@
 {
 //    if([self respondsToSelector:@selector(acceptNetWorkLogSuccess:)])
 //    {
-//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkLogSuccess:) name:ASNOTIFICATION_LoginSuccess object:nil];
+//        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkLogSuccess:) name:GXZPCENOTIFICATION_LoginSuccess object:nil];
 //    }
 }
 
@@ -57,11 +57,11 @@
 {
     if([self respondsToSelector:@selector(acceptNetWorkLikeProductsSuccess:)])
     {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkLikeProductsSuccess:) name:AS_NOTIFICATION_FirstLIKEPRODUCT object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkLikeProductsSuccess:) name:GXZPCE_NOTIFICATION_FirstLIKEPRODUCT object:nil];
     }
     if([self respondsToSelector:@selector(acceptNetWorkLike_Single_ProductsSuccess:)])
     {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkLike_Single_ProductsSuccess:) name:AS_NOTIFICATION_LIKEPRODUCT object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkLike_Single_ProductsSuccess:) name:GXZPCE_NOTIFICATION_LIKEPRODUCT object:nil];
     }
     
 }
@@ -71,7 +71,7 @@
     
     if([self respondsToSelector:@selector(acceptNetWorkFollowCollectionSuccess:)])
     {
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkFollowCollectionSuccess:) name:AS_NOTIFICATION_FOLLOW_COLLECTION object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(acceptNetWorkFollowCollectionSuccess:) name:GXZPCE_NOTIFICATION_FOLLOW_COLLECTION object:nil];
     }
     
     

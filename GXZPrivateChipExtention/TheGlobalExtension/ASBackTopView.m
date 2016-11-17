@@ -1,5 +1,5 @@
 //
-//  ASBackTopView.m
+//  GXZPCEBackTopView.m
 //  avarsha
 //
 //  Created by gxz on 16/5/17.
@@ -7,8 +7,9 @@
 //
 
 #import "ASBackTopView.h"
+#import <Masonry/Masonry.h>
 
-@implementation ASBackTopView
+@implementation GXZPCEBackTopView
 
 
 // Only override drawRect: if you perform custom drawing.
@@ -41,8 +42,9 @@
     [_imageView setImage:[UIImage imageNamed:@"backtotop_button_asv_1_1"]];
     _imageView.tag=101;
     [_imageView setContentMode:UIViewContentModeCenter];
-    [_imageView setBackgroundColor:ASUISColorS(255.0, 0.8)];
+    [_imageView setBackgroundColor:GXZPCEUISColorS(255.0, 0.8)];
     [self addSubview:_imageView];
+   
     [_imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.size.equalTo(self).multipliedBy(0.8);
         make.center.equalTo(self);
@@ -61,7 +63,7 @@
     [super layoutSubviews];
     self.layer.masksToBounds=YES;
 
-    self.layer.shadowColor=ASUISColorS(0,0.5).CGColor;
+    self.layer.shadowColor=GXZPCEUISColorS(0,0.5).CGColor;
     self.layer.shadowOffset=CGSizeMake(0,0);
     self.layer.shadowOpacity=0.4;
     [self setBackgroundColor:[UIColor clearColor]];

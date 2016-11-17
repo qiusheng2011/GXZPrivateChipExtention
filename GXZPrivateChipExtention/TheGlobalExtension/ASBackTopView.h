@@ -1,5 +1,5 @@
 //
-//  ASBackTopView.h
+//  GXZPCEBackTopView.h
 //  avarsha
 //
 //  Created by gxz on 16/5/17.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ASBackTopView : UIView
+@interface GXZPCEBackTopView : UIView
 
 @property (nonatomic,assign) BOOL isHiden;
 @property (nonatomic,assign) UITapGestureRecognizer*tapges;

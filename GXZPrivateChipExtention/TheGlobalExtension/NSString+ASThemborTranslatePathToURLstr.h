@@ -1,5 +1,5 @@
 //
-//  NSString+ASThemborTranslatePathToURLstr.h
+//  NSString+GXZPCEThemborTranslatePathToURLstr.h
 //  AVarSha
 //
 //  Created by MD_GAO on 11/4/15.
@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSString (ASThemborTranslatePathToURLstr)
+@interface NSString (GXZPCEThemborTranslatePathToURLstr)
 
 
--(NSString*)getASThemborTranslatePathToURLstrOfSize:(CGSize)imageSize;
--(NSString*)getASThemborTranslatePathToURLstrOfSize:(CGSize)imageSize with:(CGRect)crop;
+-(NSString*)getGXZPCEThemborTranslatePathToURLstrOfSize:(CGSize)imageSize;
+-(NSString*)getGXZPCEThemborTranslatePathToURLstrOfSize:(CGSize)imageSize with:(CGRect)crop;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  UITableViewCell+ASReuseCell.h
+//  UITableViewCell+GXZPCEReuseCell.h
 //  avarsha
 //
 //  Created by gxz on 16/4/6.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITableViewCell (ASReuseCell)
+@interface UITableViewCell (GXZPCEReuseCell)
 +(UITableViewCell*)addCellToTableView:(UITableView*)tableView;
 +(UITableViewCell*)addClassCellToTableView:(UITableView*)tableView;
 +(UITableViewCell*)addCellToTableView:(UITableView*)tableView withidentifier:(NSString*)identifier;
